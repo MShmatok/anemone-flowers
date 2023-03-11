@@ -39,8 +39,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: calc(24 / 18);
-  width: 170px;
-  height: 40px;
+  padding: 8px 40px;
   border-radius: 38px;
 }
 
@@ -48,8 +47,7 @@
   .blog-btn {
     font-size: 28px;
     line-height: calc(24 / 28);
-    width: 280px;
-    height: 64px;
+    padding: 20px 70px;
     border-radius: 38px;
   }
 }
