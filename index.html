@@ -31,8 +31,8 @@
     />
     <!-- Main CSS -->
     
-    <script type="module" crossorigin src="/anemone-flowers/assets/index-b3876136.js"></script>
-    <link rel="stylesheet" href="/anemone-flowers/assets/index-7853b2ed.css">
+    <script type="module" crossorigin src="/anemone-flowers/assets/index-66e11cba.js"></script>
+    <link rel="stylesheet" href="/anemone-flowers/assets/index-585b8951.css">
   </head>
 
   <body>
@@ -127,10 +127,7 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="
-              ./img/blog/blog-04-desk-1x.jpg 1x,
-              ./img/blog/blog-04-desk-2x.jpg 2x
-            "
+            srcset="/anemone-flowers/assets/blog-04-desk-1x-e4448fb8.jpg 1x, /anemone-flowers/assets/blog-04-desk-2x-343bb22d.jpg 2x"
           />
           <source
             media="(min-width: 768px)"
@@ -147,10 +144,7 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="
-              ./img/blog/blog-05-desk-1x.jpg 1x,
-              ./img/blog/blog-05-desk-2x.jpg 2x
-            "
+            srcset="/anemone-flowers/assets/blog-05-desk-1x-f1d9d7b4.jpg 1x, /anemone-flowers/assets/blog-05-desk-2x-aa860401.jpg 2x"
           />
           <source
             media="(min-width: 768px)"
@@ -167,10 +161,7 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="
-              ./img/blog/blog-06-desk-1x.jpg 1x,
-              ./img/blog/blog-06-desk-2x.jpg 2x
-            "
+            srcset="/anemone-flowers/assets/blog-06-desk-1x-03dcba34.jpg 1x, /anemone-flowers/assets/blog-06-desk-2x-2cbb3e99.jpg 2x"
           />
           <source
             media="(min-width: 768px)"
@@ -186,7 +177,7 @@
     </div>
     <div class="blog-subscription">
       <h3 class="blog-subtitle">Follow to our newsletter</h3>
-      <button type="button" class="btn blog-btn" data-modal-open>
+      <button type="button" class="btn blog-btn" data-follow-open>
         Subscribe
       </button>
     </div>
@@ -354,9 +345,9 @@
 
 
     <!-- Follow to our newsletter -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-follow>
   <div class="follow-modal">
-    <button class="follow-modal-close" data-modal-close>
+    <button class="follow-modal-close" data-follow-close>
       <svg class="follow-modal-icon" width="16" height="16">
         <use href="../img/icons.svg#icon-close-black"></use>
       </svg>
@@ -402,14 +393,14 @@
       <form class="follow-modal-form">
         <label class="input-box follow-modal-label">
           <input
-            type="text"
+            type="email"
             class="input-field follow-modal-input"
             name="modal-user-name"
             required
-            pattern="^[А-Яа-яЁё\s]+$"
-            placeholder="Your name"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="Your email"
           />
-          <span class="input-label">Name</span>
+          <span class="input-label">Email</span>
           <svg class="input-warning-icon" width="14" height="14">
             <use class="error" href="/anemone-flowers/assets/icons-8360b247.svg#icon-error"></use>
             <use class="correct" href="/anemone-flowers/assets/icons-8360b247.svg#icon-correct"></use>
