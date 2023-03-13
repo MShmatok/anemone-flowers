@@ -32,7 +32,7 @@
     <!-- Main CSS -->
     
     <script type="module" crossorigin src="/anemone-flowers/assets/index-54e56fb3.js"></script>
-    <link rel="stylesheet" href="/anemone-flowers/assets/index-2294f0ca.css">
+    <link rel="stylesheet" href="/anemone-flowers/assets/index-1c5daaa4.css">
   </head>
 
   <body>
@@ -44,9 +44,39 @@
 
 
     <main>
-      <section class="section">
-  <div class="container container-hero">
-    <h2>Hero</h2>
+      <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title">ANEMONE</h1>
+    <p class="hero-descr">flower studio</p>
+    <button class="hero-button" type="button">
+      <svg class="hero-icon-button" width="64" height="76">
+        <use
+          class="hero-btn-text"
+          href="../img/icons.svg#icon-Linked-Path-Group"
+        ></use>
+        <use class="hero-btn-arrow" href="../img/icons.svg#btn-arrow"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="hero-wrapper">
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="../img/hero/hero-des-1x.jpg 1x, ../img/hero/hero-des-2x.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../img/hero/hero-tabl-1x.jpg 1x,
+          ../img/hero/hero-tabl-2x.jpg 2x
+        "
+      />
+      <source
+        media="(max-width: 768px)"
+        srcset="../img/hero/hero-mob-1x.jpg 1x, ../img/hero/hero-mob-2x.jpg 2x"
+      />
+      <img class="hero-img" src="../img/hero/hero-des-1x.jpg" alt="flowers" />
+    </picture>
   </div>
 </section>
 
@@ -289,7 +319,7 @@
   <div class="contact-modal">
     <button type="button" class="contact-btn-close" data-modal-close>
       <svg class="contact-modal-icon" width="12" height="12">
-        <use href="/anemone-flowers/assets/icons-8360b247.svg#icon-close-black"></use>
+        <use href="/anemone-flowers/assets/icons-d642914f.svg#icon-close-black"></use>
       </svg>
     </button>
 
@@ -312,8 +342,8 @@
           />
           <span class="input-label">Name</span>
           <svg class="input-warning-icon" width="14" height="14">
-            <use class="error" href="/anemone-flowers/assets/icons-8360b247.svg#icon-error"></use>
-            <use class="correct" href="/anemone-flowers/assets/icons-8360b247.svg#icon-correct"></use>
+            <use class="error" href="/anemone-flowers/assets/icons-d642914f.svg#icon-error"></use>
+            <use class="correct" href="/anemone-flowers/assets/icons-d642914f.svg#icon-correct"></use>
           </svg>
         </label>
 
@@ -328,8 +358,8 @@
           />
           <span class="input-label">Phone</span>
           <svg class="input-warning-icon" width="14" height="14">
-            <use class="error" href="/anemone-flowers/assets/icons-8360b247.svg#icon-error"></use>
-            <use class="correct" href="/anemone-flowers/assets/icons-8360b247.svg#icon-correct"></use>
+            <use class="error" href="/anemone-flowers/assets/icons-d642914f.svg#icon-error"></use>
+            <use class="correct" href="/anemone-flowers/assets/icons-d642914f.svg#icon-correct"></use>
           </svg>
         </label>
       </div>
@@ -343,7 +373,7 @@
   <div class="contact-modal thank-you">
     <button type="button" class="contact-btn-close" data-modal-close>
       <svg class="contact-modal-icon" width="12" height="12">
-        <use href="/anemone-flowers/assets/icons-8360b247.svg#icon-close-black"></use>
+        <use href="/anemone-flowers/assets/icons-d642914f.svg#icon-close-black"></use>
       </svg>
     </button>
 
@@ -381,7 +411,7 @@
   <div class="follow-modal">
     <button class="follow-modal-close" data-follow-close>
       <svg class="follow-modal-icon" width="16" height="16">
-        <use href="/anemone-flowers/assets/icons-8360b247.svg#icon-close-black"></use>
+        <use href="/anemone-flowers/assets/icons-d642914f.svg#icon-close-black"></use>
       </svg>
     </button>
     <div class="follow-modal-left">
@@ -425,8 +455,8 @@
           />
           <span class="input-label">Email</span>
           <svg class="input-warning-icon" width="14" height="14">
-            <use class="error" href="/anemone-flowers/assets/icons-8360b247.svg#icon-error"></use>
-            <use class="correct" href="/anemone-flowers/assets/icons-8360b247.svg#icon-correct"></use>
+            <use class="error" href="/anemone-flowers/assets/icons-d642914f.svg#icon-error"></use>
+            <use class="correct" href="/anemone-flowers/assets/icons-d642914f.svg#icon-correct"></use>
           </svg>
         </label>
         <button class="follow-modal-btn btn" type="submit" data-modal-submit>
