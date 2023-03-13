@@ -31,8 +31,8 @@
     />
     <!-- Main CSS -->
     
-    <script type="module" crossorigin src="/anemone-flowers/assets/index-dc862145.js"></script>
-    <link rel="stylesheet" href="/anemone-flowers/assets/index-e647fa97.css">
+    <script type="module" crossorigin src="/anemone-flowers/assets/index-f3f9d403.js"></script>
+    <link rel="stylesheet" href="/anemone-flowers/assets/index-5f837d96.css">
   </head>
 
   <body>
@@ -241,7 +241,11 @@
         <p class="store-list-price">from $65</p>
       </li>
     </ul>
-    <button class="btn btn-order-flowers" type="button" data-modal-open>
+    <button
+      class="btn btn-order-flowers contactOpen"
+      type="button"
+      data-modal-open
+    >
       Order flowers
     </button>
   </div>
@@ -465,94 +469,94 @@
 
 
     <!--  Contact us  + Thank you-->
-    <div class="contact-backdrop is-hidden" data-modal>
-  <div class="contact-modal">
-    <button type="button" class="contact-btn-close" data-modal-close>
-      <svg class="contact-modal-icon" width="12" height="12">
-        <use href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-close-black"></use>
-      </svg>
+    <div class="contact-modal modal" data-modal="1">
+  <button type="button" class="contact-btn-close contactCloseBtn">
+    <svg class="contact-modal-icon" width="12" height="12">
+      <use href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-close-black"></use>
+    </svg>
+  </button>
+
+  <form action="#" class="modal-form" autocomplete="on">
+    <strong class="contact-modal-title">Contact us</strong>
+    <p class="contact-modal-description">
+      If you have any additional questions or you want to clarify something
+      before you make an order please fill in your contact details. We will call
+      you back.
+    </p>
+    <div class="contact-field-wrapper">
+      <label class="input-box">
+        <input
+          type="text"
+          class="input-field input-field-name"
+          name="modal-user-name"
+          required
+          pattern="^[А-Яа-яЁё\s]+$"
+          placeholder="Your name"
+        />
+        <span class="input-label">Name</span>
+        <svg class="input-warning-icon" width="14" height="14">
+          <use class="error" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-error"></use>
+          <use class="correct" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-correct"></use>
+        </svg>
+      </label>
+
+      <label class="input-box">
+        <input
+          type="tel"
+          class="input-field input-field-tel"
+          name="modal-user-phone"
+          required
+          pattern="[0-9]{10}"
+          placeholder="Your email"
+        />
+        <span class="input-label">Phone</span>
+        <svg class="input-warning-icon" width="14" height="14">
+          <use class="error" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-error"></use>
+          <use class="correct" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-correct"></use>
+        </svg>
+      </label>
+    </div>
+
+    <button type="submit" class="btn contact-btn btnSubmit" data-modal="2">
+      Send
     </button>
-
-    <form action="#" class="modal-form" autocomplete="on">
-      <strong class="contact-modal-title">Contact us</strong>
-      <p class="contact-modal-description">
-        If you have any additional questions or you want to clarify something
-        before you make an order please fill in your contact details. We will
-        call you back.
-      </p>
-      <div class="contact-field-wrapper">
-        <label class="input-box">
-          <input
-            type="text"
-            class="input-field"
-            name="modal-user-name"
-            required
-            pattern="^[А-Яа-яЁё\s]+$"
-            placeholder="Your name"
-          />
-          <span class="input-label">Name</span>
-          <svg class="input-warning-icon" width="14" height="14">
-            <use class="error" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-error"></use>
-            <use class="correct" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-correct"></use>
-          </svg>
-        </label>
-
-        <label class="input-box">
-          <input
-            type="tel"
-            class="input-field"
-            name="modal-user-phone"
-            required
-            pattern="[0-9]{10}"
-            placeholder="Your email"
-          />
-          <span class="input-label">Phone</span>
-          <svg class="input-warning-icon" width="14" height="14">
-            <use class="error" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-error"></use>
-            <use class="correct" href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-correct"></use>
-          </svg>
-        </label>
-      </div>
-
-      <button class="btn contact-btn" type="submit">Send</button>
-    </form>
-  </div>
+  </form>
 </div>
 
-    <div class="contact-backdrop is-hidden" data-modal>
-  <div class="contact-modal thank-you">
-    <button type="button" class="contact-btn-close" data-modal-close>
-      <svg class="contact-modal-icon" width="12" height="12">
-        <use href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-close-black"></use>
-      </svg>
-    </button>
+    <div class="contact-modal thank-you modal" data-modal="2">
+  <button type="button" class="contact-btn-close closeThank" data-modal-close>
+    <svg class="contact-modal-icon" width="12" height="12">
+      <use href="/anemone-flowers/assets/icons-ecc4414d.svg#icon-close-black"></use>
+    </svg>
+  </button>
 
-    <picture class="thank-you-img-wrapper">
-      <source
-        media="(min-width: 768px)"
-        srcset="/anemone-flowers/assets/img-tab-des-1x-c6d85726.png 1x, /anemone-flowers/assets/img-tab-des-2x-2004420c.png 2x"
-      />
-      <source
-        media="(max-width: 767px)"
-        srcset="/anemone-flowers/assets/img-mob-1x-b8111875.png 1x, /anemone-flowers/assets/img-mob-2x-eb91baee.png 2x"
-      />
-      <img
-        class="thank-you-img"
-        src="/anemone-flowers/assets/img-mob-1x-b8111875.png"
-        alt="Thank you for your contact"
-        loading="lazy"
-        width="188"
-        height="142"
-      />
-    </picture>
+  <picture class="thank-you-img-wrapper">
+    <source
+      media="(min-width: 768px)"
+      srcset="/anemone-flowers/assets/img-tab-des-1x-c6d85726.png 1x, /anemone-flowers/assets/img-tab-des-2x-2004420c.png 2x"
+    />
+    <source
+      media="(max-width: 767px)"
+      srcset="/anemone-flowers/assets/img-mob-1x-b8111875.png 1x, /anemone-flowers/assets/img-mob-2x-eb91baee.png 2x"
+    />
+    <img
+      class="thank-you-img"
+      src="/anemone-flowers/assets/img-mob-1x-b8111875.png"
+      alt="Thank you for your contact"
+      loading="lazy"
+      width="188"
+      height="142"
+    />
+  </picture>
 
-    <h2 class="thank-you-title">Thank you!</h2>
-    <p class="thank-you-description">
-      We have received your contact details and will reach you soon.
-    </p>
+  <h2 class="thank-you-title">Thank you!</h2>
+  <p class="thank-you-description">
+    We have received your contact details and will reach you soon.
+  </p>
 
-    <button class="btn contact-btn" type="button">Continue</button>
-  </div>
+  <button class="btn contact-btn js-modal-close closeThank-btn" type="button">
+    Continue
+  </button>
 </div>
 
 
