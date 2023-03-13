@@ -31,14 +31,48 @@
     />
     <!-- Main CSS -->
     
-    <script type="module" crossorigin src="/anemone-flowers/assets/index-54e56fb3.js"></script>
-    <link rel="stylesheet" href="/anemone-flowers/assets/index-db2228ee.css">
+    <script type="module" crossorigin src="/anemone-flowers/assets/index-dc862145.js"></script>
+    <link rel="stylesheet" href="/anemone-flowers/assets/index-b7a168e9.css">
   </head>
 
   <body>
     <header class="section">
   <div class="container container-header">
-    <h2>Header</h2>
+    <svg class="icon-logo" width="45px" height="35px">
+      <use href="../img/header/icon.svg#icon-Logo"></use>
+    </svg>
+    <svg class="icon-logo-tab" width="72px" height="57px">
+      <use href="../img/header/icon.svg#icon-Logo"></use>
+    </svg>
+
+    <ul class="header-list">
+      <li class="header-iteam">
+        <a href="">Anemone</a>
+      </li>
+      <li class="header-iteam">
+        <a href="">About us</a>
+      </li>
+      <li class="header-iteam">
+        <a href="">Store</a>
+      </li>
+      <li class="header-iteam">
+        <a href="">Delivery</a>
+      </li>
+      <li class="header-iteam">
+        <a href="">Blog</a>
+      </li>
+    </ul>
+
+    <button class="header-btn-tel" type="button">
+      <svg class="header-icon-tel" width="22px" height="22px">
+        <use href="../img/header/icon.svg#icon-tel"></use>
+      </svg>
+    </button>
+    <button class="header-btn-burger js-open-menu" type="button">
+      <svg class="header-icon-burger" width="24px" height="24px">
+        <use href="../img/header/icon.svg#icon-Burger"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
@@ -307,10 +341,37 @@
 </footer>
 
     <!-- Mobile menu-->
-    <section class="section">
-  <div class="container container-mobile-menu">
-    <h2>Mobile menu</h2>
+    <section>
+  <!-- <div class="backdrop" data-modal> -->
+  <div class="modal-window js-menu-container">
+    <button class="close-button js-close-menu" data-modal-close>
+      <svg class="close-button-icon">
+        <use href="../img/icons.svg#icon-close-black"></use>
+      </svg>
+    </button>
+    <div class="mobile-menu-box">
+      <ul class="menu-list">
+        <li class="menu-mobile-item">
+          <a class="menu-mob-link" href="">Anemone </a>
+        </li>
+        <li>
+          <a href="">About us</a>
+        </li>
+        <li>
+          <a href="">Store</a>
+        </li>
+        <li>
+          <a href="">Delivery</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+      </ul>
+    </div>
   </div>
+  <!-- </div>  -->
+
+  <!-- </div> -->
 </section>
 
 
