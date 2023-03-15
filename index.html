@@ -31,8 +31,8 @@
     />
     <!-- Main CSS -->
     
-    <script type="module" crossorigin src="/anemone-flowers/assets/index-9b6188cc.js"></script>
-    <link rel="stylesheet" href="/anemone-flowers/assets/index-ec48237a.css">
+    <script type="module" crossorigin src="/anemone-flowers/assets/index-457549d3.js"></script>
+    <link rel="stylesheet" href="/anemone-flowers/assets/index-01771f62.css">
   </head>
 
   <body>
@@ -87,7 +87,7 @@
     <div class="hero-box">
       <h1 class="hero-title">ANEMONE</h1>
       <p class="hero-descr">flower studio</p>
-      <button class="hero-button" type="button">
+      <button class="hero-button contactOpenHero" type="button">
         <svg class="hero-icon-button" width="64" height="76">
           <use class="btn-txt" href="/anemone-flowers/assets/icons-3268b4a9.svg#btn-txt"></use>
 
@@ -152,20 +152,36 @@
 
       <section class="section">
   <div class="container container-store">
-    <h2 class="title">STORE</h2>
-    <ul class="main-nav-store">
-      <li>
-        <img
-          src="../img/store/store-01-mob-2x.jpg"
-          width="136"
-          height="155"
-          alt="store1"
-        />
+    <h2 class="title title-store">STORE</h2>
+    <ul class="main-nav-store nav-list card-set">
+      <li class="items-set card-set-item">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/anemone-flowers/assets/store-04-des-1x-492b930b.jpg 1x, /anemone-flowers/assets/store-04-des-2x-c76d2efc.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/anemone-flowers/assets/store-04-tab-1x-d70d61c9.jpg 1x, /anemone-flowers/assets/store-04-tab-2x-bef03ee5.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/anemone-flowers/assets/store-04-mob-1x-95bebfc6.jpg 1x, /anemone-flowers/assets/store-04-mob-2x-05397c69.jpg 2x"
+          />
+          <img
+            class="store-img"
+            src="/anemone-flowers/assets/store-04-mob-1x-95bebfc6.jpg"
+            alt="Photo compliments"
+            loading="lazy"
+            width="136"
+            height="155"
+          />
+        </picture>
         <h3 class="store-list">compliments</h3>
         <p class="store-list-price">from $15</p>
       </li>
 
-      <li class="items-set">
+      <li class="items-set card-set-item">
         <picture>
           <source
             media="(min-width: 1280px)"
@@ -179,18 +195,20 @@
             media="(max-width: 767px)"
             srcset="/anemone-flowers/assets/store-03-mob-1x-7ba93501.jpg 1x, /anemone-flowers/assets/store-03-mob-2x-58219945.jpg 2x"
           />
+          <img
+            class="store-img"
+            src="/anemone-flowers/assets/store-03-mob-1x-7ba93501.jpg"
+            alt="Photo bouquets size S"
+            loading="lazy"
+            width="136"
+            height="155"
+          />
         </picture>
-        <img
-          src="/anemone-flowers/assets/store-03-mob-1x-7ba93501.jpg"
-          width="136"
-          height="155"
-          alt="Photo bouquets size S"
-        />
         <h3 class="store-list">bouquets size S</h3>
         <p class="store-list-price">from $25</p>
       </li>
 
-      <li class="items-set">
+      <li class="items-set card-set-item">
         <picture>
           <source
             media="(min-width: 1280px)"
@@ -204,18 +222,20 @@
             media="(max-width: 767px)"
             srcset="/anemone-flowers/assets/store-02-mob-1x-c2890566.jpg 1x, /anemone-flowers/assets/store-02-mob-2x-e5381a00.jpg 2x"
           />
+          <img
+            class="store-img"
+            src="/anemone-flowers/assets/store-02-mob-1x-c2890566.jpg"
+            alt="Photo bouquets size M"
+            loading="lazy"
+            width="136"
+            height="155"
+          />
         </picture>
-        <img
-          src="/anemone-flowers/assets/store-02-mob-1x-c2890566.jpg"
-          width="136"
-          height="155"
-          alt="Photo bouquets size M"
-        />
         <h3 class="store-list">bouquets size M</h3>
         <p class="store-list-price">from $45</p>
       </li>
 
-      <li class="items-set">
+      <li class="items-set card-set-item">
         <picture>
           <source
             media="(min-width: 1280px)"
@@ -229,26 +249,29 @@
             media="(max-width: 767px)"
             srcset="/anemone-flowers/assets/store-01-mob-1x-a96e0644.jpg 1x, /anemone-flowers/assets/store-01-mob-2x-453c813b.jpg 2x"
           />
+          <img
+            class="img store-img"
+            src="/anemone-flowers/assets/store-01-mob-1x-a96e0644.jpg"
+            alt="Photo bouquets size L"
+            loading="lazy"
+            width="136"
+            height="155"
+          />
         </picture>
-        <img
-          class="img store-img"
-          src="/anemone-flowers/assets/store-01-mob-1x-a96e0644.jpg"
-          width="136"
-          height="155"
-          alt="Photo bouquets size L"
-          loading="lazy"
-        />
         <h3 class="store-list">bouquets size L</h3>
         <p class="store-list-price">from $65</p>
       </li>
     </ul>
-    <button
-      class="btn btn-order-flowers contactOpen"
-      type="button"
-      data-modal-open
-    >
-      Order flowers
-    </button>
+
+    <div class="store-btn-block">
+      <button
+        class="btn btn-order-flowers contactOpen"
+        type="button"
+        data-modal-open
+      >
+        Order flowers
+      </button>
+    </div>
   </div>
 </section>
 
