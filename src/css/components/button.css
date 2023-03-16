@@ -5,6 +5,7 @@
 
   background-color: var(--btn-bgc-default);
   border: transparent;
+  transition: background-color var(--transition-set);
 }
 .btn:hover {
   background-color: var(--btn-bgc-hover);

@@ -39,5 +39,5 @@
   --items: 2;
 
   /* Other */
-  --transition-set: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-set: 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
