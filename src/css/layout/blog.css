@@ -134,16 +134,4 @@
   transform: rotateY(180deg);
 }
 
-.blog-page-scroll-up{
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-.button-page-scroll-up{
- padding: 5px;
- font-weight: 500;
- background-color: var(--secondary-bgc-page);
- border: transparent;
- color: var(--secondary-txt-cl);
- cursor: pointer;
-}
+
