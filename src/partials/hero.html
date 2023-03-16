@@ -15,7 +15,24 @@
       <picture>
         <source
           media="(min-width: 1280px)"
+          srcset="
+            ./img/hero/hero-des-1x.webp 1x,
+            ./img/hero/hero-des-2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1280px)"
           srcset="./img/hero/hero-des-1x.jpg 1x, ./img/hero/hero-des-2x.jpg 2x"
+          type="image/jpeg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/hero/hero-tabl-1x.webp 1x,
+            ./img/hero/hero-tabl-2x.webp 2x
+          "
+          type="image/webp"
         />
         <source
           media="(min-width: 768px)"
@@ -23,10 +40,20 @@
             ./img/hero/hero-tabl-1x.jpg 1x,
             ./img/hero/hero-tabl-2x.jpg 2x
           "
+          type="image/jpeg"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/hero/hero-mob-1x.webp 1x,
+            ./img/hero/hero-mob-2x.webp 2x
+          "
+          type="image/webp"
         />
         <source
           media="(max-width: 767px)"
           srcset="./img/hero/hero-mob-1x.jpg 1x, ./img/hero/hero-mob-2x.jpg 2x"
+          type="image/jpeg"
         />
         <img class="hero-img" src="./img/hero/hero-des-1x.jpg" alt="flowers" />
       </picture>
