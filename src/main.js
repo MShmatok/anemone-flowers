@@ -6,3 +6,4 @@ import './js/modal.js';
 import './js/form-validation';
 import './js/header-scroll';
 import './js/anchor-scroll';
+import './js/page-scroll-up';
