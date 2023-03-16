@@ -156,3 +156,15 @@
     fill: var(--main-bgc-page);
   }
 }
+.icon-logo-tab:hover,
+.header-tel:hover,
+.header-iteam:hover {
+  transform: translateY(-25%);
+  transform: scale(1.3);
+  font-weight: 500;
+}
+.icon-logo-tab,
+.header-tel,
+.header-iteam {
+  transition: transform var(--transition-set);
+}
