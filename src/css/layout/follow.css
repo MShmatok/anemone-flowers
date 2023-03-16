@@ -1,5 +1,6 @@
 .backdrop {
   position: fixed;
+  z-index: 100;
   width: 100%;
   height: 100%;
   top: 0;
@@ -44,7 +45,7 @@
   }
 }
 .follow-modal-right {
-  padding: 16px 16px 28px;
+  padding: 18px 16px 28px;
 }
 @media screen and (min-width: 768px) {
   .follow-modal-right {
