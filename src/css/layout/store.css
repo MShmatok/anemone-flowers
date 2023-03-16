@@ -200,11 +200,10 @@
   }
 }
 
-.card-set-item a:hover img {
+.store-img:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
-.card-set-item a:hover {
-  max-width: 600px;
-  display: block;
+.store-box-img {
   overflow: hidden;
 }
