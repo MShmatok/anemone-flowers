@@ -102,11 +102,9 @@
   display: flex;
   justify-content: center;
 }
-/* .image-delivery {
-  width: 320px;
-  min-width: 320px;
-  height: auto;
-} */
+.image-delivery {
+  width: 100%;
+}
 
 .container-delivery-photo {
   padding: 0;

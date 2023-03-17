@@ -4,16 +4,24 @@ $('.responsive').slick({
   nextArrow: '<button type="button" class="my-slick-next">&xrarr;</button>',
   infinite: true,
   speed: 300,
+  accessibility: true,
   slidesToScroll: 1,
+  slidesToShow: 2,
   adaptiveHeight: true,
-  slidesToShow: 3,
-  variableWidth: true, // обовязково додається, щоб частина картки заходило за вьюпорт
+  variableWidth: true,
+  dots: true,
+  lazyLoad: 'ondemand',
+  respondTo: 'window',
+  swipe: true,
+  swipeToSlide: true,
+  // centerMode: true,
+  // обовязково додається, щоб частина картки заходило за вьюпорт
 
   responsive: [
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
       },
     },
     {
@@ -21,6 +29,14 @@ $('.responsive').slick({
       settings: {
         slidesToShow: 1,
       },
+
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 5,
+      },
+
     },
   ],
 });

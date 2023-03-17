@@ -1,7 +1,10 @@
 .header-bg {
   background-color: var(--scroll-header-bgc);
   backdrop-filter: blur(2px);
-  opacity: 0.85;
+  opacity: 0.95;
+  font-weight: 500;
+  border-radius: 10px;
+  border: transparent;
 }
 .header-section {
   position: fixed;
@@ -11,9 +14,6 @@
   z-index: 10;
   padding-top: 16px;
   padding-bottom: 16px;
-
-  transition: background-color var(--transition-set),
-    backdrop-filter var(--transition-set);
 }
 
 .container-header {
@@ -22,6 +22,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  transition: background-color var(--transition-set),
+    backdrop-filter var(--transition-set), font-weight var(--transition-set);
 }
 
 .icon-logo {

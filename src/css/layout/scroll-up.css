@@ -27,14 +27,14 @@
 @media screen and (min-width: 768px) {
   .blog-page-scroll-up {
     position: fixed;
-    bottom: 25px;
+    bottom: 5px;
     right: 25px;
   }
 }
 @media screen and (min-width: 1280px) {
   .blog-page-scroll-up {
     position: fixed;
-    bottom: 45px;
+    bottom: 5px;
     right: 45px;
   }
 }

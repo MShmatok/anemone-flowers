@@ -95,6 +95,7 @@
 
 .store-img {
   transition: transform var(--transition-set);
+  width: 100%;
 }
 .store-list {
   font-weight: 500;

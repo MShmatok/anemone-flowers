@@ -1,3 +1,6 @@
+
+let heightHeader = document.querySelector(".header-section").getBoundingClientRect().height;
+
 import $ from 'jquery';
 
 $(document).ready(function () {
@@ -13,10 +16,9 @@ $(document).ready(function () {
 
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-
             $('html, body').animate(
                 {
-                    scrollTop: $(hash).offset().top - 113,
+                    scrollTop: $(hash).offset().top - heightHeader,
                 },
                 //duration
                 700,
@@ -29,15 +31,4 @@ $(document).ready(function () {
     });
 });
 
-// https://animate.style/
 
-//  1. В терміналі прописати команду "npm i jquery"
-
-//  2. Створити у папці js окремий файл, наприклад, "anchor-scroll.js" і вставити в нього код, що на 1-30 рядках цього файлу
-
-//  3. Підключити його до index.js
-
-//  4. За бажанням можна задати анімацію. Для цього у head треба підключити лінк
-//     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-//     і на елементи, що треба анімувати додати клас animate__animated та опціональний клас, наприклад animate__slideOutUp
-// Після цього усі переходити по якорям будуть плавні і анімовані
